@@ -9,7 +9,7 @@ var root = path.resolve(__dirname, 'app');
 
 module.exports = {
     entry: {
-        complex: path.resolve(root, 'complex.js'),
+        about: path.resolve(root, 'complex.js'),
         style: path.resolve(root, 'assets/sass/style.scss')
         /*flower: path.resolve(root, 'assets/img/flowers.png'),
         paint: path.resolve(root, 'assets/img/paint.png'),
@@ -51,7 +51,7 @@ module.exports = {
         new HtmlWebpackPlugin({
            template: path.resolve(root, './index.html')
         }),
-        new ExtractTextPlugin({ filename: './style.complex.css', disable: false, allChunks: true }),
+        new ExtractTextPlugin({ filename: './style.about.css', disable: false, allChunks: true }),
         new OptimizeCssAssetsPlugin(),
         new JavaScriptObfuscator ({
             rotateUnicodeArray: true

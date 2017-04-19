@@ -1,0 +1,17 @@
+.acquaintance{
+  margin: 25px 0 0 0;
+  &__title{
+    font-family: $headers-font-bold;
+    font-size: 36px;
+    color: $header-text-color;
+    text-align: center;
+  }
+  &__text{
+    font-family: $headers-font-regular;
+    font-size: 16px;
+    color: black;
+    strong{
+      font-family: $headers-font-bold;
+    }
+  }
+}

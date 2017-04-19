@@ -1,0 +1,77 @@
+.clients-cases{
+  margin: 56px 0 0 0;
+  &__title{
+    @extend .acquaintance__title;
+  }
+  &-block{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin: 52px 0 0 0;
+    &__item{
+      width: 32%;
+      border: 2px solid rgb(207, 207, 207);
+      img{
+        width: 213px;
+        display: block;
+        margin: auto;
+      }
+      p{
+        font-family: $headers-font-bold;
+        font-size: 22px;
+        color: rgb(38, 38, 38);
+        text-align: center;
+        margin: 0;
+        &:nth-child(5){
+          margin: 15px 0 0 0;
+          font-family: $headers-font-regular;
+          font-size: 18px;
+          color: rgb(38, 38, 38);
+          strong{
+            color: rgb(0, 191, 243);
+          }
+        }
+      }
+      figure:last-child{
+        margin: 20px 0 0 0;
+        img{
+          width: 306px;
+        }
+      }
+      a{
+        font-family: $headers-font-bold;
+        font-size: 18px;
+        color: rgb(0, 191, 243);
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        margin: 15px auto 0 auto;
+        &:hover{
+          color: black;
+        }
+      }
+    }
+  }
+  &__btn-block{
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    justify-content: center;
+    margin: 37px 0 0 0;
+    &__button{
+      font-family: $headers-font-bold;
+      border: 2px solid rgba(68,221,97,1);
+      border-radius: 50px;
+      color: rgba(68,221,97,1);
+      text-decoration: none !important;
+      text-transform: uppercase;
+      font-size: 15px;
+      padding: 18px 40px 18px 40px;
+      transition: all 0.3s ease-in-out;
+      &:hover{
+        background-color: rgba(68,221,97,1);
+        color: white;
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+
+.instruments{
+  margin: 50px 0 0 0;
+  &__title{
+    @extend .acquaintance__title;
+  }
+  &-block{
+    margin: 43px 0 0 0;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    &__item{
+      width: 24%;
+      font-family: $headers-font-regular;
+      color: black;
+      font-size: 16px;
+      img{
+        float: left;
+        margin-right: 10px;
+        width: 29px;
+      }
+      p{
+        text-align: left;
+        vertical-align: text-bottom;
+        line-height: 30px;
+      }
+    }
+  }
+}
