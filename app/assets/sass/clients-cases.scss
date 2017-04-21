@@ -1,5 +1,5 @@
 .clients-cases{
-  margin: 56px 0 0 0;
+  margin: 26px 0 40px 0;
   &__title{
     @extend .acquaintance__title;
   }
@@ -7,7 +7,7 @@
     display: flex;
     flex-flow: row;
     justify-content: space-around;
-    margin: 52px 0 0 0;
+    margin: 5px 0 0 0;
     &__item{
       width: 32%;
       border: 2px solid rgb(207, 207, 207);
@@ -69,8 +69,9 @@
       padding: 18px 40px 18px 40px;
       transition: all 0.3s ease-in-out;
       &:hover{
-        background-color: rgba(68,221,97,1);
+        background-color: rgba(38,183,231,1);
         color: white;
+        border-color: rgba(38,183,231,1);
       }
     }
   }

@@ -6,12 +6,18 @@
     color: $header-text-color;
     text-align: center;
   }
-  &__text{
+  &__subtitle{
     font-family: $headers-font-regular;
-    font-size: 16px;
+    font-size: 22px;
+    line-height: 25px;
     color: black;
-    strong{
-      font-family: $headers-font-bold;
-    }
+    text-align: center;
+    font-weight: 600;
+  }
+  &__numbers{
+    margin-top: 200px;
+    font-family: $headers-font-regular;
+    font-weight: 600;
+    padding: 0 20px;
   }
 }

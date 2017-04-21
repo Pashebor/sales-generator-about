@@ -44,7 +44,7 @@ const ClientsCases = () => {
         </div>
       </div>
       <div className="clients-cases__btn-block">
-        <a href="#" className="clients-cases__btn-block__button">Посмотреть другие кейсы</a>
+        <a href="/portfolio/" className="clients-cases__btn-block__button">Посмотреть другие кейсы</a>
       </div>
     </div>
     </section>
